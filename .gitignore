@@ -1,0 +1,87 @@
+# ==========================================
+# PneumoScan AI - Git Ignore
+# ==========================================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kaggle.json
+
+# Dataset files (large files - do not commit)
+dataset/
+datasets/
+data/
+*.zip
+*.rar
+*.7z
+
+# Trained models and ML artifacts
+models/
+*.keras
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+checkpoints/
+logs/
+runs/
+wandb/
+
+# Evaluation outputs (optional generated files)
+confusion_matrix.png
+training_history.png
+evaluation_report.json
+
+# FastAPI / Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# React / Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Frontend environment variables
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.bak
