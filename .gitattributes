@@ -1,0 +1,11 @@
+
+# Treat JavaScript frontend files as frontend code,
+# not as Python source code.
+# Exclude frontend language files from language statistics.
+
+*.js linguist-detectable=false
+*.jsx linguist-detectable=false
+*.ts linguist-detectable=false
+*.tsx linguist-detectable=false
+*.css linguist-detectable=false
+*.html linguist-detectable=false
